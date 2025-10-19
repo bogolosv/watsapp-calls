@@ -9,6 +9,4 @@ RUN npm install
 
 COPY . .
 
-RUN chmod +x /usr/src/app/run.sh
-
-CMD [ "/usr/src/app/run.sh" ]
+# s6-overlay автоматично запустить rootfs/etc/services.d/*

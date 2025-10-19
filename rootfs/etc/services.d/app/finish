@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bashio
+echo "🛑 WhatsApp Calls Add-on зупинено"
+exit 0
