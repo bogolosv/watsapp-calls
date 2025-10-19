@@ -1,0 +1,12 @@
+name: "WhatsApp Calls Notifier"
+version: "1.0.0"
+slug: "whatsapp_calls"
+description: "Отримує вхідні дзвінки з WhatsApp і надсилає сповіщення через Pushover"
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+options: {}
+schema: {}
+image: "local/whatsapp_calls"
