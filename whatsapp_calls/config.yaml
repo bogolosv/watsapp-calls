@@ -9,4 +9,4 @@ startup: services
 boot: auto
 options: {}
 schema: {}
-image: "local/whatsapp_calls"
+# image: "local/whatsapp_calls"
